@@ -27,6 +27,26 @@ Route::get('/informatika', function () {
     return view('informatika');
 });
 
+Route::get('/pendidikan', function () {
+    return view('pendidikan');
+});
+
+Route::get('/sisteminfo', function () {
+    return view('sisteminfo');
+});
+
+Route::get('/manajemen', function () {
+    return view('manajemen');
+});
+
+Route::get('/kontak', function () {
+    return view('kontak');
+});
+
+Route::get('/lokasi', function () {
+    return view('lokasi');
+});
+
 Route::get('/layout-horizontal-menu', function () {
     return view('layout-horizontal-menu');
 });

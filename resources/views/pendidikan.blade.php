@@ -15,7 +15,7 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
-    <title>Jurusan Teknik Informatika</title>
+    <title>S1 Pendidikan Teknologi Informasi</title>
 
     <!-- Favicons-->
     <link rel="icon" href="images/lambangunesa.jpg" sizes="35x35">
@@ -28,12 +28,10 @@
 
 
     <!-- CORE CSS-->
-
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
     <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
     <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
@@ -111,13 +109,13 @@
                         <li class="bold"><a class="collapsible-header  waves-effect waves-cyan"><i class="mdi-av-my-library-books"></i>Program Studi</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="informatika">S1 Teknik Informatika</a>
+                                    <li><a href="ui-alerts.html">S1 Teknik Informatika</a>
                                     </li>
-                                    <li><a href="pendidikan">S1 Pend. T. Informasi</a>
+                                    <li><a href="ui-buttons.html">S1 Pend. T. Informasi</a>
                                     </li>
-                                    <li><a href="sisteminfo">S1 Sistem Informasi</a>
+                                    <li><a href="ui-badges.html">S1 Sistem Informasi</a>
                                     </li>
-                                    <li><a href="manajemen">D3 Manajemen Inf</a>
+                                    <li><a href="ui-breadcrumbs.html">D3 Manajemen Inf</a>
                                     </li>
                                 </ul>
                             </div>
@@ -180,10 +178,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col s12 m12 l12">
-                            <h5 class="breadcrumbs-title">Kontak</h5>
+                            <h5 class="breadcrumbs-title">Program Studi S1 Pendidikan Teknologi Informasi</h5>
                             <ol class="breadcrumbs">
                                 <li><a href="beranda">Beranda</a></li>
-                                <li class="active">Kontak</li>
+                                <li class="active">S1 Pendidikan Teknologi Informasi</li>
                             </ol>
                         </div>
                     </div>
@@ -191,39 +189,34 @@
             </div>
             <!--breadcrumbs end-->
 
-            <!--start container-->
-            <div class="container">
-                <h1>Tentang Jurusan Teknik Informatika</h1>
-                <div id="invoice">
 
-                    <div class="invoice-header">
-
-                        <div class="row section">
-                            <div class="col s12 m6 l6">
-                                <img src="images/unesa.jpg" width="250" height="100" alt="company logo"><br>
-                                <span class="invoice-icon"><i class="mdi-social-location-city cyan-text"></i></span>
-                                <h5>UNESA KAMPUS KETINTANG</h5>
-                                <p>
-                                    <span>Jl. Ketintang Wiyata</span>
-                                    <br/>
-                                    <span>Surabaya</span>
-                                    <br/>
-                                    <span>+62-31-8299563</span>
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             <!--start container-->
             <div class="container">
                 <div class="section">
-                    <br><br><br><br><br><br>
+                    <p class="caption">Visi</p>
+                    <div class="divider"></div><br>
+                    <p>"Visi program studi S1 Pendidikan Teknologi Informasi adalah mengembangkan pendidikan kejuruan dalam ilmu teknologi informasi serta menjadi pusat studi pendidikan teknologi informasi yang berorientasi kewirausahaan."</p>
                 </div>
+                <div class="section">
+                    <p class="caption">Misi</p>
+                    <div class="divider"></div><br>
+                    <ol>
+                        <li>Menyelenggarakan pendidikan untuk menghasilkan lulusan dalam bidang pendidikan teknologi informasi yang relevan dengan kebutuhan pasar kerja global.</li><br>
+                        <li>Menghasilkan tenaga kependidikan yang kompeten, profesional, religius, kreatif, mandiri, dan berjiwa pemimpin serta berkemampuan kewirausahaan.</li><br>
+                        <li>Menyelenggarakan penelitian dan pengembangan ilmu untuk menghasilkan karya akademik yang unggul dan menjadi rujukan dalam bidang pendidikan teknologi informasi.</li><br>
+                        <li>Menjalin kerjasama dengan dunia usaha/industri dan pendidikan dalam dan luar negeri untuk meningkatkan kualitas dan kinerja program studi pendidikan teknologi informasi.</li><br>
+                        <li>Menjadikan program studi sebagai pusat pengembangan pendidikan teknologi informasi.</li><br>
+                        <li>Memberdayakan alumni dalam rangka peningkatan peran dan citra program studi pendidikan teknologi informasi.</li><br>
+                        <li>Membangun organisasi yang sehat berdasarkan prinsip otonomi, akuntabilitas, akreditasi dan evaluasi diri secara berkesinambungan.</li><br>
+                    </ol>
+                </div>
+                <br><br><br>
             </div>
             <!--end container-->
         </section>
         <!-- END CONTENT -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
 
     </div>
     <!-- END WRAPPER -->
@@ -246,8 +239,6 @@
 </footer>
 <!-- END FOOTER -->
 
-
-
 <!-- ================================================
 Scripts
 ================================================ -->
@@ -256,8 +247,8 @@ Scripts
 <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
 <!--materialize js-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
-<!--prism-->
-<script type="text/javascript" src="js/plugins/prism/prism.js"></script>
+<!--prism
+<script type="text/javascript" src="js/prism/prism.js"></script>-->
 <!--scrollbar-->
 <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 <!-- chartist -->
@@ -267,8 +258,6 @@ Scripts
 <script type="text/javascript" src="js/plugins.min.js"></script>
 <!--custom-script.js - Add your own theme custom JS-->
 <script type="text/javascript" src="js/custom-script.js"></script>
-
-
 
 </body>
 

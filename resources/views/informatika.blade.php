@@ -57,7 +57,7 @@
         <nav class="navbar-color">
             <div class="nav-wrapper">
                 <ul class="left">
-                    <li><h1 class="logo-wrapper"><a href="beranda.blade.php" class="brand-logo darken-1"><img src="images/logounesa.png" alt=""></a> <span class="logo-text">Informatika</span></h1></li>
+                    <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/logounesa.png" alt=""></a> <span class="logo-text">Informatika</span></h1></li>
                 </ul>
                 <div class="header-search-wrapper hide-on-med-and-down">
                     <i class="mdi-action-search"></i>
@@ -202,8 +202,13 @@
                     <div class="divider"></div><br>
                     <ol>
                         <li>Menyelenggarakan manajemen prodi yang kredibel, akuntabel dan transparan sesuai standar penjaminan mutu.</li>
-                    </ol>>
+                        <li>Menghasilkan lulusan yang berkompeten dan berkarakter.</li>
+                        <li>Melaksanakan penelitian dibidang teknologi informasi dan hasil-hasilnya dipublikasikan minimal ditingkat nasional.</li>
+                        <li>Melaksanakan pengabdian kepada masyarakat dalam menerapkan keilmuannya.</li>
+                        <li>Menjalin kerjasama yang berkelanjutan dengan berbagai instansi dan dunia industri.</li>
+                    </ol>
                 </div>
+                <br><br><br>
             </div>
             <!--end container-->
         </section>

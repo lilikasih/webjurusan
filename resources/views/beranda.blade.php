@@ -112,13 +112,13 @@
                         <li class="bold"><a class="collapsible-header  waves-effect waves-cyan"><i class="mdi-av-my-library-books"></i>Program Studi</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="ui-alerts.html">S1 Teknik Informatika</a>
+                                    <li><a href="informatika">S1 Teknik Informatika</a>
                                     </li>
-                                    <li><a href="ui-buttons.html">S1 Pend. T. Informasi</a>
+                                    <li><a href="pendidikan">S1 Pend. T. Informasi</a>
                                     </li>
-                                    <li><a href="ui-badges.html">S1 Sistem Informasi</a>
+                                    <li><a href="sisteminfo">S1 Sistem Informasi</a>
                                     </li>
-                                    <li><a href="ui-breadcrumbs.html">D3 Manajemen Inf</a>
+                                    <li><a href="manajemen">D3 Manajemen Inf</a>
                                     </li>
                                 </ul>
                             </div>
@@ -155,9 +155,9 @@
                         </li>
                     </ul>
                 </li>
-                    <li class="bold"><a href="app-email.html" class="waves-effect waves-cyan"><i class="mdi-action-perm-contact-cal"></i>Kontak</a>
+                    <li class="bold"><a href="kontak" class="waves-effect waves-cyan"><i class="mdi-action-perm-contact-cal"></i>Kontak</a>
                     </li>
-                    <li class="bold"><a href="app-calendar.html" class="waves-effect waves-cyan"><i class="mdi-action-room"></i>Peta Lokasi</a>
+                    <li class="bold"><a href="lokasi" class="waves-effect waves-cyan"><i class="mdi-action-room"></i>Peta Lokasi</a>
                     </li>
                 <li class="li-hover"><div class="divider"></div></li>
 
@@ -191,7 +191,7 @@
                                     <div class="card-content  green white-text">
                                         <p class="card-stats-title"></i>S1 Teknik Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...</a>
+                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...
                                         </p>
                                     </div>
                                     <div class="card-action  green darken-2">
@@ -203,7 +203,7 @@
                                     <div class="card-content pink lighten-1 white-text">
                                         <p class="card-stats-title"></i>S1 Sistem Informasi</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...
+                                        <p class="card-stats-compare"><a href="sisteminfo"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...
                                         </p>
                                     </div>
                                     <div class="card-action  pink darken-2">
@@ -215,7 +215,7 @@
                                     <div class="card-content blue-grey white-text">
                                         <p class="card-stats-title"></i>S1 Pend. T. Informasi</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...
+                                        <p class="card-stats-compare"><a href="pendidikan"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...
                                         </p>
                                     </div>
                                     <div class="card-action blue-grey darken-2">
@@ -227,7 +227,7 @@
                                     <div class="card-content purple white-text">
                                         <p class="card-stats-title"></i>D3 Manajemen Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...
+                                        <p class="card-stats-compare"><a href="manajemen"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...
                                         </p>
                                     </div>
                                     <div class="card-action purple darken-2">
@@ -307,150 +307,12 @@
                                </div>
                            </div>
                     </div>
+                        <br><br><br>
                     <!--card widgets end-->
                     </div>
                 <!--end container-->
             </section>
             <!-- END CONTENT -->
-
-            <!-- //////////////////////////////////////////////////////////////////////////// -->
-            <!-- START RIGHT SIDEBAR NAV-->
-            <aside id="right-sidebar-nav">
-                <ul id="chat-out" class="side-nav rightside-navigation">
-                    <li class="li-hover">
-                    <a href="#" data-activates="chat-out" class="chat-close-collapse right"><i class="mdi-navigation-close"></i></a>
-                    <div id="right-search" class="row">
-                        <form class="col s12">
-                            <div class="input-field">
-                                <i class="mdi-action-search prefix"></i>
-                                <input id="icon_prefix" type="text" class="validate">
-                                <label for="icon_prefix">Search</label>
-                            </div>
-                        </form>
-                    </div>
-                    </li>
-                    <li class="li-hover">
-                        <ul class="chat-collapsible" data-collapsible="expandable">
-                        <li>
-                            <div class="collapsible-header teal white-text active"><i class="mdi-social-whatshot"></i>Recent Activity</div>
-                            <div class="collapsible-body recent-activity">
-                                <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-add-shopping-cart"></i>
-                                    </div>
-                                    <div class="col s9 recent-activity-list-text">
-                                        <a href="#">just now</a>
-                                        <p>Jim Doe Purchased new equipments for zonal office.</p>
-                                    </div>
-                                </div>
-                                <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-device-airplanemode-on"></i>
-                                    </div>
-                                    <div class="col s9 recent-activity-list-text">
-                                        <a href="#">Yesterday</a>
-                                        <p>Your Next flight for USA will be on 15th August 2015.</p>
-                                    </div>
-                                </div>
-                                <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-settings-voice"></i>
-                                    </div>
-                                    <div class="col s9 recent-activity-list-text">
-                                        <a href="#">5 Days Ago</a>
-                                        <p>Natalya Parker Send you a voice mail for next conference.</p>
-                                    </div>
-                                </div>
-                                <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-store"></i>
-                                    </div>
-                                    <div class="col s9 recent-activity-list-text">
-                                        <a href="#">Last Week</a>
-                                        <p>Jessy Jay open a new store at S.G Road.</p>
-                                    </div>
-                                </div>
-                                <div class="recent-activity-list chat-out-list row">
-                                    <div class="col s3 recent-activity-list-icon"><i class="mdi-action-settings-voice"></i>
-                                    </div>
-                                    <div class="col s9 recent-activity-list-text">
-                                        <a href="#">5 Days Ago</a>
-                                        <p>Natalya Parker Send you a voice mail for next conference.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header light-blue white-text active"><i class="mdi-editor-attach-money"></i>Sales Repoart</div>
-                            <div class="collapsible-body sales-repoart">
-                                <div class="sales-repoart-list  chat-out-list row">
-                                    <div class="col s8">Target Salse</div>
-                                    <div class="col s4"><span id="sales-line-1"></span>
-                                    </div>
-                                </div>
-                                <div class="sales-repoart-list chat-out-list row">
-                                    <div class="col s8">Payment Due</div>
-                                    <div class="col s4"><span id="sales-bar-1"></span>
-                                    </div>
-                                </div>
-                                <div class="sales-repoart-list chat-out-list row">
-                                    <div class="col s8">Total Delivery</div>
-                                    <div class="col s4"><span id="sales-line-2"></span>
-                                    </div>
-                                </div>
-                                <div class="sales-repoart-list chat-out-list row">
-                                    <div class="col s8">Total Progress</div>
-                                    <div class="col s4"><span id="sales-bar-2"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header red white-text"><i class="mdi-action-stars"></i>Favorite Associates</div>
-                            <div class="collapsible-body favorite-associates">
-                                <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img online-user valign profile-image">
-                                    </div>
-                                    <div class="col s8">
-                                        <p>Eileen Sideways</p>
-                                        <p class="place">Los Angeles, CA</p>
-                                    </div>
-                                </div>
-                                <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img online-user valign profile-image">
-                                    </div>
-                                    <div class="col s8">
-                                        <p>Zaham Sindil</p>
-                                        <p class="place">San Francisco, CA</p>
-                                    </div>
-                                </div>
-                                <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img offline-user valign profile-image">
-                                    </div>
-                                    <div class="col s8">
-                                        <p>Renov Leongal</p>
-                                        <p class="place">Cebu City, Philippines</p>
-                                    </div>
-                                </div>
-                                <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img online-user valign profile-image">
-                                    </div>
-                                    <div class="col s8">
-                                        <p>Weno Carasbong</p>
-                                        <p>Tokyo, Japan</p>
-                                    </div>
-                                </div>
-                                <div class="favorite-associate-list chat-out-list row">
-                                    <div class="col s4"><img src="images/avatar.jpg" alt="" class="circle responsive-img offline-user valign profile-image">
-                                    </div>
-                                    <div class="col s8">
-                                        <p>Nusja Nawancali</p>
-                                        <p class="place">Bangkok, Thailand</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        </ul>
-                    </li>
-                </ul>
-            </aside>
-            <!-- LEFT RIGHT SIDEBAR NAV-->
 
         </div>
         <!-- END WRAPPER -->

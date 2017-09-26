@@ -392,7 +392,7 @@
                             <li class="bold"><a class="collapsible-header  waves-effect waves-cyan"><i class="mdi-social-pages"></i> Pages</a>
                                 <div class="collapsible-body">
                                     <ul>                                        
-                                        <li><a href="page-contact.html">Contact Page</a>
+                                        <li><a href="lokasi.blade.php">Contact Page</a>
                                         </li>
                                         <li><a href="page-todo.html">ToDos</a>
                                         </li>
