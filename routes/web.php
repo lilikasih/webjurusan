@@ -47,6 +47,22 @@ Route::get('/lokasi', function () {
     return view('lokasi');
 });
 
+Route::get('/ruangkuliah', function () {
+    return view('ruangkuliah');
+});
+
+Route::get('/lab_rpl', function () {
+    return view('lab_rpl');
+});
+
+Route::get('/struktur_organisasi', function () {
+    return view('struktur_organisasi');
+});
+
+Route::get('/porjur', function () {
+    return view('porjur');
+});
+
 Route::get('/layout-horizontal-menu', function () {
     return view('layout-horizontal-menu');
 });

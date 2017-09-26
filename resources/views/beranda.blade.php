@@ -60,7 +60,7 @@
             <nav class="navbar-color">
                 <div class="nav-wrapper">
                     <ul class="left">                      
-                      <li><h1 class="logo-wrapper"><a href="beranda.blade.php" class="brand-logo darken-1"><img src="images/logounesa.png" alt=""></a> <span class="logo-text">Informatika</span></h1></li>
+                      <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/logounesa.png" alt=""></a> <span class="logo-text">Informatika</span></h1></li>
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
@@ -88,7 +88,7 @@
             <aside id="left-sidebar-nav">
                 <ul id="slide-out" class="side-nav fixed leftside-navigation">
 
-                <li class="bold active"><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i>MENU</a>
+                <li class="bold active"><a href="beranda" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i>MENU</a>
                 </li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
@@ -123,7 +123,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="bold"><a href="app-email.html" class="waves-effect waves-cyan"><i class="mdi-image-grid-on"></i>Struktur Organisasi</a>
+                        <li class="bold"><a href="struktur_organisasi" class="waves-effect waves-cyan"><i class="mdi-image-grid-on"></i>Struktur Organisasi</a>
                         </li>
 
                         <li class="bold"><a class="collapsible-header  waves-effect waves-cyan"><i class="mdi-social-group"></i>Data Tenaga Kerja</a>
@@ -140,9 +140,9 @@
                         <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-editor-insert-chart"></i>Sarana Prasarana</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="#">Ruang Kuliah</a>
+                                    <li><a href="ruangkuliah">Ruang Kuliah</a>
                                     </li>
-                                    <li><a href="#">Lab RPL</a>
+                                    <li><a href="lab_rpl">Lab RPL</a>
                                     </li>
                                     <li><a href="#">Lab Jaringan Komputer</a>
                                     </li>
@@ -248,14 +248,14 @@
                                 <div class="blog-card" >
                                 <div class="card">
                                     <div class="card-image waves-effect waves-block waves-light">
-                                        <img src="images/porjur.jpg" alt="blog-img">
+                                        <a href="porjur"><img src="images/porjur.jpg" alt="blog-img"></a>
                                     </div>
                                     <div class="card-content">
                                         <p class="row">
-                                          <span class="left"><a href="">Porjur</a></span>
+                                          <span class="left"><a href="porjur">Porjur</a></span>
                                           <span class="right">15 Juni 2016</span>
                                         </p>
-                                        <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Pekan Olahraga Jurusan: Junjung Tinggi Sportivitas, Terapkan Solidaritas</a>
+                                        <h4 class="card-title grey-text text-darken-4"><a href="porjur" class="grey-text text-darken-4">Pekan Olahraga Jurusan: Junjung Tinggi Sportivitas, Terapkan Solidaritas</a>
                                         </h4>                                        
                                         <div class="row">
                                           <div class="col s9"> By <a>Brain Informatika</a></div>
