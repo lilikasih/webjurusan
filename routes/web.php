@@ -23,6 +23,10 @@ Route::get('/beranda', function () {
     return view('beranda');
 });
 
+Route::get('/informatika', function () {
+    return view('informatika');
+});
+
 Route::get('/layout-horizontal-menu', function () {
     return view('layout-horizontal-menu');
 });

@@ -18,12 +18,12 @@
     <title>Jurusan Teknik Informatika</title>
 
     <!-- Favicons-->
-    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="images/lambangunesa.jpg" sizes="35x35">
     <!-- Favicons-->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" href="images/lambangunesa.jpg" sizes="152x152">
     <!-- For iPhone -->
     <meta name="msapplication-TileColor" content="#00bcd4">
-    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <meta name="msapplication-TileImage" content="images/favicon/lambangunesa.jpg" sizes="144x144">
     <!-- For Windows Phone -->
 
 
@@ -60,7 +60,7 @@
             <nav class="navbar-color">
                 <div class="nav-wrapper">
                     <ul class="left">                      
-                      <li><h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1"><img src="images/materialize-logo.png" alt="materialize logo"></a> <span class="logo-text">Informatika</span></h1></li>
+                      <li><h1 class="logo-wrapper"><a href="beranda.blade.php" class="brand-logo darken-1"><img src="images/logounesa.png" alt=""></a> <span class="logo-text">Informatika</span></h1></li>
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
@@ -137,20 +137,18 @@
                             </div>
                         </li>
                         
-                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-editor-insert-chart"></i> Charts</a>
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-editor-insert-chart"></i>Sarana Prasarana</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="charts-chartjs.html">Chart JS</a>
+                                    <li><a href="#">Ruang Kuliah</a>
                                     </li>
-                                    <li><a href="charts-chartist.html">Chartist</a>
+                                    <li><a href="#">Lab RPL</a>
                                     </li>
-                                    <li><a href="charts-morris.html">Morris Charts</a>
+                                    <li><a href="#">Lab Jaringan Komputer</a>
                                     </li>
-                                    <li><a href="charts-xcharts.html">xCharts</a>
+                                    <li><a href="#">Lab Multimedia</a>
                                     </li>
-                                    <li><a href="charts-flotcharts.html">Flot Charts</a>
-                                    </li>
-                                    <li><a href="charts-sparklines.html">Sparkline Charts</a>
+                                    <li><a href="#">Ruang Baca</a>
                                     </li>
                                 </ul>
                             </div>
@@ -193,7 +191,7 @@
                                     <div class="card-content  green white-text">
                                         <p class="card-stats-title"></i>S1 Teknik Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="#"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...</a>
+                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...</a>
                                         </p>
                                     </div>
                                     <div class="card-action  green darken-2">
@@ -250,17 +248,17 @@
                                 <div class="blog-card" >
                                 <div class="card">
                                     <div class="card-image waves-effect waves-block waves-light">
-                                        <img src="images/gallary/30.jpg" alt="blog-img">
+                                        <img src="images/porjur.jpg" alt="blog-img">
                                     </div>
                                     <div class="card-content">
                                         <p class="row">
                                           <span class="left"><a href="">Porjur</a></span>
                                           <span class="right">15 Juni 2016</span>
                                         </p>
-                                        <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Pekan Olahraga Jurusan</a>
+                                        <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Pekan Olahraga Jurusan: Junjung Tinggi Sportivitas, Terapkan Solidaritas</a>
                                         </h4>                                        
                                         <div class="row">
-                                          <div class="col s9"> By <a>HimTI</a></div>
+                                          <div class="col s9"> By <a>Brain Informatika</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -271,17 +269,17 @@
                                <div class="blog-card" >
                                    <div class="card">
                                        <div class="card-image waves-effect waves-block waves-light">
-                                           <img src="images/gallary/30.jpg" alt="blog-img">
+                                           <img src="images/IC.jpg" alt="blog-img">
                                        </div>
                                        <div class="card-content">
                                            <p class="row">
-                                               <span class="left"><a href="">IC</a></span>
+                                               <span class="left"><a href="">Informatics Champion</a></span>
                                                <span class="right">03 November 2016</span>
                                            </p>
-                                           <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Informatics Champion</a>
+                                           <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Mengasah Bakat Teknologi Melalui Informatics Champion</a>
                                            </h4>
                                            <div class="row">
-                                               <div class="col s9"> By <a href="#">HimTI</a></div>
+                                               <div class="col s9"> By <a href="#">Brain Informatika</a></div>
                                            </div>
                                        </div>
                                    </div>
@@ -292,17 +290,17 @@
                                <div class="blog-card" >
                                    <div class="card">
                                        <div class="card-image waves-effect waves-block waves-light">
-                                           <img src="images/gallary/30.jpg" alt="blog-img">
+                                           <img src="images/dialogjurusan.jpg" alt="blog-img">
                                        </div>
                                        <div class="card-content">
                                            <p class="row">
-                                               <span class="left"><a href="">Komatik</a></span>
-                                               <span class="right">05 Januari 2016</span>
+                                               <span class="left"><a href="">Dialog Jurusan</a></span>
+                                               <span class="right">25 Mei 2016</span>
                                            </p>
-                                           <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Komunitas Anak TI</a>
+                                           <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Mewadahi Aspirasi Mahasiswa Melalui Dialog Jurusan</a>
                                            </h4>
                                            <div class="row">
-                                               <div class="col s9"> By <a href="#">Teknik Informatika</a></div>
+                                               <div class="col s9"> By <a href="#">Brain Informatika</a></div>
                                            </div>
                                        </div>
                                    </div>
