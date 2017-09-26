@@ -15,8 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Auth::routes();
+
+Route::get('index', 'HomeController@index')->name ('index');
+
+Route::get('/beranda', function () {
+    return view('beranda');
 });
 
 Route::get('/layout-horizontal-menu', function () {

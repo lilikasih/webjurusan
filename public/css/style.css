@@ -432,7 +432,11 @@ input.header-search-input:focus {
   border-bottom: none !important;
   box-shadow: none !important;
 }
-
+ .judul{
+   color: #00b0ff;
+   font-size: 24px;
+   font-style: normal;
+ }
 .header-search-wrapper-focus i {
   color: #444;
 }
