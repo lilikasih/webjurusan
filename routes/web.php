@@ -19,8 +19,18 @@ Auth::routes();
 
 Route::get('index', 'HomeController@index')->name ('index');
 
+
+
 Route::get('/beranda', function () {
     return view('beranda');
+});
+
+Route::get('/sejarah', function () {
+    return view('sejarah');
+});
+
+Route::get('/visimisi', function () {
+    return view('visimisi');
 });
 
 Route::get('/informatika', function () {

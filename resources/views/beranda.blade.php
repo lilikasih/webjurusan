@@ -59,8 +59,9 @@
         <div class="navbar-fixed">
             <nav class="navbar-color">
                 <div class="nav-wrapper">
-                    <ul class="left">                      
-                      <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/logounesa.png" alt=""></a> <span class="logo-text">Informatika</span></h1></li>
+                    <ul class="left">
+                        <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/lambangunesa.png" alt="materialize logo" style="width: 30px"><span> Informatika</span></a> </h1></li>
+
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
@@ -101,9 +102,9 @@
                         <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-account-balance"></i>Tentang Kami</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="css-typography.html">Sejarah</a>
+                                    <li><a href="sejarah">Sejarah</a>
                                     </li>
-                                    <li><a href="css-icons.html">Visi & Misi</a>
+                                    <li><a href="visimisi">Visi & Misi</a>
                                     </li>
 
                                 </ul>
