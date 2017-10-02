@@ -35,8 +35,8 @@
                 <div id="invoice">
                     <div class="invoice-header">
                         <div class="row section">
-                            <div class="col s12 m6 l6">
-                                <img src="images/lab_rpl.jpg" width="900" height="500" alt=""><br><br><br>
+                            <div class="col s12 m6 l6" style="">
+                               <img src="images/lab_rpl.jpg" width="900" height="500" alt="">
                             </div>
                         </div>
                         <ol>

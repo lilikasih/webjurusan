@@ -16,7 +16,7 @@
 
                             <h2 class="judul" style="text-align:center">Selamat Datang</h2>
                             <h1 class="judul" style="text-align:center">di Jurusan Teknik Informatika Universitas Negeri Surabaya</h1>
-                            <img src="images/foto.jpg" class="fix" width="1100" height="500">
+                            <img src="images/foto.jpg" style="object-fit: cover" class="fix" width="1100" height="500">
 
 
                     <!--card stats start-->

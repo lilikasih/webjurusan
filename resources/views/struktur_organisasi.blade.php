@@ -35,7 +35,7 @@
                     <div class="invoice-header">
                         <div class="row section">
                             <div class="col s12 m6 l6">
-                                <img src="images/struktur.jpg" width="1100" height="800" alt="">
+                                <img src="images/struktur.jpg" style="object-fit: cover" width="1100" height="800" alt="">
 
                             </div>
                         </div>

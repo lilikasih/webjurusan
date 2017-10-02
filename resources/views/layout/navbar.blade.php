@@ -60,13 +60,12 @@
         <nav class="navbar-color">
             <div class="nav-wrapper">
                 <ul class="left">
-                    <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/unesa.png" alt="materialize logo" style="width: 33px"><span> Informatika</span></a> </h1></li>
-
+                <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/unesa.png" alt="materialize logo" style="width: 33px"><span> Teknik Informatika</span></a> </h1></li>
                 </ul>
-                <div class="header-search-wrapper hide-on-med-and-down">
+                {{--<div class="header-search-wrapper hide-on-med-and-down">
                     <i class="mdi-action-search"></i>
                     <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search..."/>
-                </div>
+                </div>--}}
                 <ul class="right hide-on-med-and-down">
                     <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen"><i class="mdi-action-settings-overscan"></i></a>
                     </li>
