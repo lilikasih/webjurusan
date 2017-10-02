@@ -60,7 +60,7 @@
         <nav class="navbar-color">
             <div class="nav-wrapper">
                 <ul class="left">
-                    <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/lambangunesa.png" alt="materialize logo" style="width: 30px"><span> Informatika</span></a> </h1></li>
+                    <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/unesa.png" alt="materialize logo" style="width: 33px"><span> Informatika</span></a> </h1></li>
 
                 </ul>
                 <div class="header-search-wrapper hide-on-med-and-down">
@@ -160,7 +160,12 @@
 </aside>
 <!-- END LEFT SIDEBAR NAV-->
 
+<div id="main">
+    @yield('isi')
+</div>
+
 <!-- START FOOTER -->
+<br><br><br><br>
 <footer class="page-footer">
 
     <div class="footer-copyright">
