@@ -84,3 +84,6 @@ Route::get('/table-data', function () {
 Route::get('/table-dataa', function () {
     return view('table-dataa');
 });
+Route::get('/galeri', function () {
+    return view('galeri');
+});
