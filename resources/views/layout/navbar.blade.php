@@ -18,12 +18,12 @@
     <title>Jurusan Teknik Informatika</title>
 
     <!-- Favicons-->
-    <link rel="icon" href="images/lambangunesa.jpg" sizes="35x35">
+    <link rel="icon" href="images/teknikinformatika.png" sizes="35x35">
     <!-- Favicons-->
-    <link rel="apple-touch-icon-precomposed" href="images/lambangunesa.jpg" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="images/teknikinformatika.png" sizes="152x152">
     <!-- For iPhone -->
     <meta name="msapplication-TileColor" content="#00bcd4">
-    <meta name="msapplication-TileImage" content="images/favicon/lambangunesa.jpg" sizes="144x144">
+    <meta name="msapplication-TileImage" content="images/favicon/teknikinformatika.png" sizes="144x144">
     <!-- For Windows Phone -->
 
 
@@ -82,7 +82,7 @@
 <aside id="left-sidebar-nav">
     <ul id="slide-out" class="side-nav fixed leftside-navigation">
 
-        <li class="bold active"><a href="beranda" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i>MENU</a>
+        <li class="bold active"><a href="beranda" class="waves-effect waves-cyan"><i class="mdi-action-account-balance"></i>Beranda</a>
         </li>
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
@@ -92,7 +92,7 @@
 
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
-                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-account-balance"></i>Tentang Kami</a>
+                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-info-outline"></i>Tentang Kami</a>
                     <div class="collapsible-body">
                         <ul>
                             <li><a href="sejarah">Sejarah</a>
@@ -117,9 +117,6 @@
                         </ul>
                     </div>
                 </li>
-                <li class="bold"><a href="struktur_organisasi" class="waves-effect waves-cyan"><i class="mdi-image-grid-on"></i>Struktur Organisasi</a>
-                </li>
-
                 <li class="bold"><a class="collapsible-header  waves-effect waves-cyan"><i class="mdi-social-group"></i>Data Tenaga Kerja</a>
                     <div class="collapsible-body">
                         <ul>
@@ -148,6 +145,8 @@
                     </div>
                 </li>
             </ul>
+        </li>
+        <li class="bold"><a href="struktur_organisasi" class="waves-effect waves-cyan"><i class="mdi-image-grid-on"></i>Struktur Organisasi</a>
         </li>
         <li class="bold"><a href="galeri" class="waves-effect waves-cyan"><i class="mdi-image-collections"></i>Galeri</a>
         </li>

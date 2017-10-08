@@ -34,9 +34,8 @@
                 <div id="invoice">
                     <div class="invoice-header">
                         <div class="row section">
-                            <div class="col s12 m6 l6">
-                                <img src="images/struktur.jpg" style="object-fit: cover" width="1100" height="800" alt="">
-
+                            <div class="materialboxed">
+                                <img src="images/struktur.jpg"  width="100%" height="auto" alt="sample">
                             </div>
                         </div>
                     </div>
