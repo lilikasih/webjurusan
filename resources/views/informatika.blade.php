@@ -1,4 +1,4 @@
-@extends('layout.navbar')
+@extends('layouts.navbar')
 
 @section('isi')
 
@@ -22,6 +22,7 @@
                             <ol class="breadcrumbs">
                                 <li><a href="beranda">Beranda</a></li>
                                 <li class="active">S1 Teknik Informatika</li>
+
                             </ol>
                         </div>
                     </div>

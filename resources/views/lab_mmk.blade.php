@@ -18,10 +18,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col s12 m12 l12">
-                            <h5 class="breadcrumbs-title">Ruang Kuliah</h5>
+                            <h5 class="breadcrumbs-title">Lab. Multimedia Kreatif</h5>
                             <ol class="breadcrumbs">
                                 <li><a href="beranda">Beranda</a></li>
-                                <li class="active">Ruang Kuliah</li>
+                                <li class="active">Lab. Multimedia Kreatif</a></li>
                             </ol>
                         </div>
                     </div>
@@ -31,23 +31,28 @@
 
             <!--start container-->
             <div class="container">
-                <h1>Ruang Kelas dan Suasana Perkuliahan</h1>
+                
                 <div id="invoice">
                     <div class="invoice-header">
                         <div class="row section">
-                            <div class="col s12 m6 l6">
-                                <img src="images/ruangkuliah1.jpg" width="800" height="600" alt=""><br><br><br>
-                                <img src="images/ruangkuliah2.jpg" width="800" height="600" alt=""><br><br><br>
-                                <img src="images/ruangkuliah3.jpg" width="800" height="600" alt=""><br><br><br>
-                                <img src="images/ruangkuliah4.jpg" width="800" height="600" alt="">
+                            <div class="col s12 m6 l6" style="">
+                               <img src="images/lab_mm.jpg" width="900" height="500" alt="">
                             </div>
                         </div>
+                        <h6>Laboratorium yang digunakan untuk melayani praktikum beberapa mata kuliah </h6>
+                        <ol>
+                            <b>Prodi S1 Pendidikan Teknologi Informasi</b><br><br>
+                            <li>Teknik Audio Visual</li>
+							<li>Elearning</li>
+							<li>Teknik Animasi</li>
+                        </ol>
+                       
                     </div>
                 </div>
                 <!--start container-->
                 <div class="container">
                     <div class="section">
-                        <br><br><br><br><br><br>
+                        <br><br>
                     </div>
                 </div>
                 <!--end container-->
@@ -56,7 +61,6 @@
 
     </div>
     <!-- END WRAPPER -->
-
 
 <!-- jQuery Library -->
 <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>

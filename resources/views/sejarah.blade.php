@@ -1,44 +1,41 @@
-@extends('layout.navbar')
+@extends('layouts.navbar')
 
-@section('isi')
+                @section('isi')
 
-        <!-- START WRAPPER -->
-        <div class="wrapper">
+                    <!-- START WRAPPER -->
+                        <div class="wrapper">
 
-            <!-- START CONTENT -->
-            <section id="content">
+                            <!-- START CONTENT -->
+                            <section id="content">
 
-                <!--start container-->
-                <div class="container">
-                
-                 <!--breadcrumbs start-->
-        <div id="breadcrumbs-wrapper">
-            <!-- Search for small screen -->
-            <div class="header-search-wrapper grey hide-on-large-only">
-                <i class="mdi-action-search active"></i>
-                <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search...">
-            </div>
-          <div class="container">
-            <div class="row">
-              <div class="col s12 m12 l12">
-                <h4 class="breadcrumbs-title">Sejarah</h4>
-                <ol class="breadcrumbs">
-                    <li><a href="beranda">Beranda</a></li>
-                    <li class="=active">Sejarah</a></li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
+                                    <!--breadcrumbs start-->
+                                    <div id="breadcrumbs-wrapper">
+                                        <!-- Search for small screen -->
+                                        <div class="header-search-wrapper grey hide-on-large-only">
+                                            <i class="mdi-action-search active"></i>
+                                            <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search...">
+                                        </div>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col s12 m12 l12">
+                                                    <h4 class="breadcrumbs-title">Sejarah</h4>
+                                                    <ol class="breadcrumbs">
+                                                        <li><a href="beranda">Beranda</a></li>
+                                                        <li class="=active">Sejarah</a></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
         <!--breadcrumbs end-->
                     <div class="container">
-                        <h1>Sejarah Jurusan Teknik Informatika</h1>
+                        <center><h1>Sejarah Jurusan Teknik Informatika</h1></center>
 
                     <!--chart dashboard start-->
                     <div id="chart-dashboard">
 
                              <p style="text-align: justify">
-                            Jurusan Teknik INFORMATIKA adalah satu dari lima jurusan yang ada di selingkung Fakultas Teknik (FT) Universitas Negeri Surabaya (Unesa). Jurusan Teknik  Informatika cikal bakalnya berasal dari jurursan Teknik Elektro pada
+                            Jurusan Teknik Informatika adalah satu dari lima jurusan yang ada di selingkung Fakultas Teknik (FT) Universitas Negeri Surabaya (UNESA). Jurusan Teknik  Informatika cikal bakalnya berasal dari jurursan Teknik Elektro pada
                                  Prodi D3 Manajemen Informatika dan S1 Pendidikan Teknologi nformasi, setelah proses pengajuan kepada DIKTI untuk pendirian jurusan Teknik  Informatika pada tahun 2012.
                             <br><br> Latar belakang bagaimana munculnya Program Studi D3 Manajemen Informatika dan S1 Pendidikan Teknologi Informatika dalam Jurusan Teknik Elektro adalah sebagai berikut:
                                  Pada awalnya masyarakat sangat mengharapkan dibukanya program studi berbasis IT karena

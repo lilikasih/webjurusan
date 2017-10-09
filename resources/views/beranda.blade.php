@@ -1,4 +1,4 @@
-@extends('layout.navbar')
+@extends('layouts.navbar')
 
 @section('isi')
 
@@ -29,8 +29,7 @@
                                     <div class="card-content  green white-text">
                                         <p class="card-stats-title"></i>S1 Teknik Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...
-                                        </p>
+                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
                                     </div>
                                     <div class="card-action  green darken-2">
                                     </div>
@@ -39,10 +38,9 @@
                             <div class="col s12 m6 l3">
                                 <div class="card">
                                     <div class="card-content pink lighten-1 white-text">
-                                        <p class="card-stats-title"></i>S1 Sistem Informasi</p>
+                                        <p class="card-stats-title" ></i>S1 Sistem Informasi</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="sisteminfo"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...
-                                        </p>
+                                        <p class="card-stats-compare"><a href="sisteminfo"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
                                     </div>
                                     <div class="card-action  pink darken-2">
                                     </div>
@@ -53,8 +51,7 @@
                                     <div class="card-content blue-grey white-text">
                                         <p class="card-stats-title"></i>S1 Pend. T. Informasi</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="pendidikan"><i class="mdi-hardware-keyboard-arrow-up"></a></i>Selengkapnya...
-                                        </p>
+                                        <p class="card-stats-compare"><a href="pendidikan"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
                                     </div>
                                     <div class="card-action blue-grey darken-2">
                                     </div>
@@ -63,10 +60,9 @@
                             <div class="col s12 m6 l3">
                                 <div class="card">
                                     <div class="card-content purple white-text">
-                                        <p class="card-stats-title"></i>D3 Manajemen Informatika</p>
+                                        <p class="card-stats-title"></i>D3 Manaj. Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="manajemen"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...
-                                        </p>
+                                        <p class="card-stats-compare"><a href="manajemen"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
                                     </div>
                                     <div class="card-action purple darken-2">
                                     </div>
@@ -76,24 +72,29 @@
                     </div>
                     <!--card stats end-->
 
-                    <!-- //////////////////////////////////////////////////////////////////////////// -->
-
-                    <!--card widgets start-->
                     <div id="card-widgets">
                        <div class="row">
-                            <!-- blog card -->
+
+                           <?php
+                           $i=0;
+                           ?>
+
+                           @foreach($ketberita as $berita)
+                               <?php
+                               $i++;
+                               ?>
+
                             <div class="col s12 m12 l4">
                                 <div class="blog-card" >
                                 <div class="card">
                                     <div class="card-image waves-effect waves-block waves-light">
-                                        <a href="porjur"><img src="images/porjur.jpg" alt="blog-img"></a>
+                                        <a href="{{url('berita',[$berita->id])}}"><img src="images/{{$berita->foto}}" alt="blog-img" width="100px" height="190px"></a>
                                     </div>
                                     <div class="card-content">
                                         <p class="row">
-                                          <span class="left"><a href="porjur">Porjur</a></span>
-                                          <span class="right">15 Juni 2016</span>
+                                          <span class="left">{{$berita->tgl}}</span>
                                         </p>
-                                        <h4 class="card-title grey-text text-darken-4"><a href="porjur" class="grey-text text-darken-4">Pekan Olahraga Jurusan: Junjung Tinggi Sportivitas, Terapkan Solidaritas</a>
+                                        <h4 class="card-title grey-text text-darken-4"><a href="{{url('berita',[$berita->id])}}" class="grey-text text-darken-4">{{$berita->judul}}</a>
                                         </h4>                                        
                                         <div class="row">
                                           <div class="col s9"> By <a>Brain Informatika</a></div>
@@ -102,56 +103,21 @@
                                 </div>
                                 </div>
                             </div>
-
-                           <div class="col s12 m12 l4">
-                               <div class="blog-card" >
-                                   <div class="card">
-                                       <div class="card-image waves-effect waves-block waves-light">
-                                           <img src="images/IC.jpg" alt="blog-img">
-                                       </div>
-                                       <div class="card-content">
-                                           <p class="row">
-                                               <span class="left"><a href="">Informatics Champion</a></span>
-                                               <span class="right">03 November 2016</span>
-                                           </p>
-                                           <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Mengasah Bakat Teknologi Melalui Informatics Champion</a>
-                                           </h4>
-                                           <div class="row">
-                                               <div class="col s9"> By <a href="#">Brain Informatika</a></div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-
-                           <div class="col s12 m12 l4">
-                               <div class="blog-card" >
-                                   <div class="card">
-                                       <div class="card-image waves-effect waves-block waves-light">
-                                           <img src="images/dialogjurusan.jpg" alt="blog-img">
-                                       </div>
-                                       <div class="card-content">
-                                           <p class="row">
-                                               <span class="left"><a href="">Dialog Jurusan</a></span>
-                                               <span class="right">25 Mei 2016</span>
-                                           </p>
-                                           <h4 class="card-title grey-text text-darken-4"><a href="#" class="grey-text text-darken-4">Mewadahi Aspirasi Mahasiswa Melalui Dialog Jurusan</a>
-                                           </h4>
-                                           <div class="row">
-                                               <div class="col s9"> By <a href="#">Brain Informatika</a></div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                    </div>
+                                   <?php
+                                   if ($i%3==0){
+                                      ?> <hr><br> <?php
+                                   }
+                                   ?>
+                            @endforeach
+                       </div>
                         <br><br><br>
-                    <!--card widgets end-->
                     </div>
+
+                    </div>
+                </div>
                 <!--end container-->
             </section>
             <!-- END CONTENT -->
-
         </div>
         <!-- END WRAPPER -->
 

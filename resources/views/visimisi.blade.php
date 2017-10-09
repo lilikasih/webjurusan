@@ -1,4 +1,4 @@
-@extends('layout.navbar')
+@extends('layouts.navbar')
 
 @section('isi')
 
@@ -7,9 +7,6 @@
 
             <!-- START CONTENT -->
             <section id="content">
-
-                <!--start container-->
-                <div class="container">
                 
                 <!--breadcrumbs start-->
         <div id="breadcrumbs-wrapper">
@@ -34,9 +31,9 @@
                  
                     <!--chart dashboard start-->
                     <div id="chart-dashboard">
-                            <h1 style="text-align:left">Visi</h1>
-                            <p style="text-align:left">Unggul dalam Pendidikan dan Teknologi Informasi.<br>
-                            <h1 style="text-align:left">Misi</h1>
+                            <h1> Visi</h1>
+                        <p>Unggul dalam Pendidikan dan Teknologi Informasi.</p><br>
+                            <h1>Misi</h1>
                             <ol>
                             <li> Menyelenggarakan manajemen jurusan yang kredibel, akuntabel dan transparan sesuai standar penjaminan mutu.</li>
                             <li> Menghasilkan lulusan yang berkompeten dan berkarakter.</li>
