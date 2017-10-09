@@ -35,7 +35,7 @@
                 <!--chart dashboard start-->
                 <div id="chart-dashboard">
 
-                    <center><img src="images/{{$Beasiswa->foto}}" style="object-fit:cover"  width="700" height="600"></center>
+                    <center><img src="{{asset ('images/'.$Beasiswa->foto)}}" style="object-fit:cover"  width="80%" height="auto"></center>
                     <p style="text-align: justify">{!!$Beasiswa->isi!!}</p>
                 </div>
             </div>

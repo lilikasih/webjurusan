@@ -33,7 +33,7 @@
                 <!--chart dashboard start-->
                 <div id="chart-dashboard">
 
-                    <center><img src="images/{{$berita->foto}}" style="object-fit:cover"  width="700" height="600"></center>
+                    <center><img src="{{asset('images/'.$berita->foto)}}" style="object-fit:cover"  width="100%" height="auto"></center>
                     <p style="text-align: justify">{!!$berita->isi!!}</p>
                 </div>
             </div>

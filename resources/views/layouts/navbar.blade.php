@@ -18,27 +18,26 @@
     <title>Jurusan Teknik Informatika</title>
 
     <!-- Favicons-->
-    <link rel="icon" href="images/teknikinformatika.png" sizes="35x35">
+    <link rel="icon" href="images/lambangunesa.jpg" sizes="35x35">
     <!-- Favicons-->
-    <link rel="apple-touch-icon-precomposed" href="images/teknikinformatika.png" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="images/lambangunesa.jpg" sizes="152x152">
     <!-- For iPhone -->
     <meta name="msapplication-TileColor" content="#00bcd4">
-    <meta name="msapplication-TileImage" content="images/favicon/teknikinformatika.png" sizes="144x144">
+    <meta name="msapplication-TileImage" content="images/favicon/lambangunesa.jpg" sizes="144x144">
     <!-- For Windows Phone -->
 
 
     <!-- CORE CSS-->
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset ('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset ('css/style.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
     <!-- Custome CSS-->
-    <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset ('css/custom/custom.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
+
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
-    <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="js/plugins/magnific-popup/magnific-popup.css" type="text/css" rel="stylesheet" media="screen,projection">
-
+    <link href="{{ asset ('js/plugins/perfect-scrollbar/perfect-scrollbar.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset ('js/plugins/jvectormap/jquery-jvectormap.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset ('ajs/plugins/chartist-js/chartist.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
 
 
 </head>
@@ -61,7 +60,7 @@
         <nav class="navbar-color">
             <div class="nav-wrapper">
                 <ul class="left">
-                <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="images/unesa.png" alt="materialize logo" style="width: 33px"><span> Teknik Informatika</span></a> </h1></li>
+                    <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="{{asset ('images/teknikinformatika.png')}}" alt="" style="width: 33px"><span> Teknik Informatika</span></a> </h1></li>
                 </ul>
                 {{--<div class="header-search-wrapper hide-on-med-and-down">
                     <i class="mdi-action-search"></i>
@@ -82,7 +81,7 @@
 <aside id="left-sidebar-nav">
     <ul id="slide-out" class="side-nav fixed leftside-navigation">
 
-        <li class="bold active"><a href="beranda" class="waves-effect waves-cyan"><i class="mdi-action-account-balance"></i>Beranda</a>
+        <li class="bold active"><a href="beranda" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i>MENU</a>
         </li>
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
@@ -92,7 +91,7 @@
 
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
-                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-info-outline"></i>Tentang Kami</a>
+                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-account-balance"></i>Tentang Kami</a>
                     <div class="collapsible-body">
                         <ul>
                             <li><a href="sejarah">Sejarah</a>
@@ -117,10 +116,13 @@
                         </ul>
                     </div>
                 </li>
+                <li class="bold"><a href="struktur_organisasi" class="waves-effect waves-cyan"><i class="mdi-image-grid-on"></i>Struktur Organisasi</a>
+                </li>
+
                 <li class="bold"><a class="collapsible-header  waves-effect waves-cyan"><i class="mdi-social-group"></i>Data Tenaga Kerja</a>
                     <div class="collapsible-body">
                         <ul>
-                            <li><a href="table-basic.html">Data Dosen</a>
+                            <li><a href="dosen">Data Dosen</a>
                             </li>
                             <li><a href="table-data.html">Data Staff Karyawan</a>
                             </li>
@@ -128,31 +130,31 @@
                     </div>
                 </li>
 
-                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-editor-insert-chart"></i>Sarana Prasarana</a>
+                <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-account-balance"></i>Sarana Prasarana</a>
                     <div class="collapsible-body">
                         <ul>
                             <li><a href="ruangkuliah">Ruang Kuliah</a>
                             </li>
                             <li><a href="lab_rpl">Lab RPL</a>
                             </li>
-                            <li><a href="#">Lab Jaringan Komputer</a>
+                            <li><a href="lab_jarkom">Lab Jaringan Komputer</a>
                             </li>
-                            <li><a href="#">Lab Multimedia</a>
+                            <li><a href="lab_mmk">Lab Multimedia</a>
                             </li>
-                            <li><a href="#">Ruang Baca</a>
+                            <li><a href="ruangbaca">Ruang Baca</a>
                             </li>
                         </ul>
                     </div>
                 </li>
             </ul>
         </li>
-        <li class="bold"><a href="struktur_organisasi" class="waves-effect waves-cyan"><i class="mdi-image-grid-on"></i>Struktur Organisasi</a>
+        <li class="bold"><a href="kontak" class="waves-effect waves-cyan"><i class="mdi-action-perm-contact-cal"></i>Kontak</a>
         </li>
         <li class="bold"><a href="galeri" class="waves-effect waves-cyan"><i class="mdi-image-collections"></i>Galeri</a>
         </li>
-        <li class="bold"><a href="kontak" class="waves-effect waves-cyan"><i class="mdi-action-perm-contact-cal"></i>Kontak</a>
-        </li>
         <li class="bold"><a href="lokasi" class="waves-effect waves-cyan"><i class="mdi-action-room"></i>Peta Lokasi</a>
+        </li>
+        <li class="bold"><a href="beasiswa" class="waves-effect waves-cyan"><i class="mdi-action-info"></i>Info Beasiswa</a>
         </li>
         <li class="li-hover"><div class="divider"></div></li>
 
@@ -176,6 +178,7 @@
     </div>
 </footer>
 <!-- END FOOTER -->
+
 
 <script type="text/javascript">
     /*

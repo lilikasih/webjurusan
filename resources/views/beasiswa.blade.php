@@ -44,7 +44,7 @@
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
                                 <br><center><span class="left"><a href="{{url('infobeasiswa',[$Beasiswa->id])}}">{{$Beasiswa->nama}}</a></span><br><br><br></center>
-                                <a href="{{url('infobeasiswa',[$Beasiswa->id])}}"><img src="images/{{$Beasiswa->foto}}" width="300" height="200"></a><br>
+                                <a href="{{url('infobeasiswa',[$Beasiswa->id])}}"><img src="{{asset('images/'.$Beasiswa->foto)}}" width="300" height="200"></a><br>
                                 </div>
                                 <div class="card-content">
                                     <p class="row">

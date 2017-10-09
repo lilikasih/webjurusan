@@ -95,13 +95,6 @@ Route::get('/struktur_organisasi', function () {
     return view('struktur_organisasi');
 });
 
-Route::get('/table-data', function () {
-    return view('table-data');
-});
-
-Route::get('/table-dataa', function () {
-    return view('table-dataa');
-});
 Route::get('/galeri', function () {
     return view('galeri');
 });
