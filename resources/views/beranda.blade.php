@@ -17,7 +17,7 @@
                             <h2 class="judul" style="text-align:center">Selamat Datang</h2>
                             <h1 class="judul" style="text-align:center">di Jurusan Teknik Informatika Universitas Negeri Surabaya</h1>
                         <div class="responsive-img">
-                            <img src="images/foto.jpg"  width="100%" height="auto" alt="">
+                            <img src="{{asset('images/foto.jpg')}}"  width="100%" height="auto" alt="">
                         </div>
 
                     <!--card stats start-->
@@ -27,9 +27,9 @@
                             <div class="col s12 m6 l3">
                                 <div class="card">
                                     <div class="card-content  green white-text">
-                                        <p class="card-stats-title"></i>S1 Teknik Informatika</p>
+                                        <p class="card-stats-title" >S1 Teknik Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
+                                        <p class="card-stats-compare"><a href="informatika"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...</a></p>
                                     </div>
                                     <div class="card-action  green darken-2">
                                     </div>
@@ -40,7 +40,7 @@
                                     <div class="card-content pink lighten-1 white-text">
                                         <p class="card-stats-title" ></i>S1 Sistem Informasi</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="sisteminfo"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
+                                        <p class="card-stats-compare"><a href="sisteminfo"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...</a></p>
                                     </div>
                                     <div class="card-action  pink darken-2">
                                     </div>
@@ -51,7 +51,7 @@
                                     <div class="card-content blue-grey white-text">
                                         <p class="card-stats-title"></i>S1 Pend. T. Informasi</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="pendidikan"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
+                                        <p class="card-stats-compare"><a href="pendidikan"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...</a></p>
                                     </div>
                                     <div class="card-action blue-grey darken-2">
                                     </div>
@@ -62,7 +62,7 @@
                                     <div class="card-content purple white-text">
                                         <p class="card-stats-title"></i>D3 Manaj. Informatika</p>
                                         <h4 class="card-stats-number">Akreditasi A</h4>
-                                        <p class="card-stats-compare"><a href="manajemen"><i class="mdi-hardware-keyboard-arrow-up"></i></a>Selengkapnya...</p>
+                                        <p class="card-stats-compare"><a href="manajemen"><i class="mdi-hardware-keyboard-arrow-up"></i>Selengkapnya...</a></p>
                                     </div>
                                     <div class="card-action purple darken-2">
                                     </div>
@@ -97,7 +97,7 @@
                                         <h4 class="card-title grey-text text-darken-4"><a href="{{url('berita',[$berita->id])}}" class="grey-text text-darken-4">{{$berita->judul}}</a>
                                         </h4>                                        
                                         <div class="row">
-                                          <div class="col s9"> By <a>Brain Informatika</a></div>
+                                          <div class="col s9"> by Brain Informatika</div>
                                         </div>
                                     </div>
                                 </div>

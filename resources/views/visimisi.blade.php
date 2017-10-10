@@ -21,31 +21,35 @@
                 <h4 class="breadcrumbs-title">Visi & Misi</h4>
                 <ol class="breadcrumbs">
                     <li><a href="beranda">Beranda</a></li>
-                    <li class="=active">Visi Misi</a></li>
+                    <li class="=active">Sejarah</li>
                 </ol>
               </div>
             </div>
           </div>
         </div>
         <!--breadcrumbs end-->
-                 
-                    <!--chart dashboard start-->
-                    <div id="chart-dashboard">
-                            <h1> Visi</h1>
-                        <p>Unggul dalam Pendidikan dan Teknologi Informasi.</p><br>
-                            <h1>Misi</h1>
-                            <ol>
+
+                <!--start container-->
+                <div class="container">
+                    <div class="section">
+                        <p class="caption">Visi</p>
+                        <div class="divider"></div><br>
+                        <p>Unggul dalam Pendidikan dan Teknologi Informasi.</p>
+                     </div>
+                    <div class="section">
+                        <p class="caption">Misi</p>
+                        <div class="divider"></div><br>
+                        <ol>
                             <li> Menyelenggarakan manajemen jurusan yang kredibel, akuntabel dan transparan sesuai standar penjaminan mutu.</li>
                             <li> Menghasilkan lulusan yang berkompeten dan berkarakter.</li>
                             <li> Meningkatkan kualitas sumber daya manusia di bidang keilmuan pendidikan dan teknologi informasi.</li>
                             <li> Menyelenggarakan pendididikan yang inovatif di bidang teknologi informasi.</li>
                             <li> Menyediakan sarana dan prasarana dalam pengembangan pendidikan dan teknologi informasi.</li>
                             <li> Melaksanakan penelitian, penerapan IPTEK bagi masyarakat dan menjalin kerjasama yang berkelanjutan dengan berbagai instansi dan dunia industri.
-                            </li><br><br><br><br><br><br><br><br>
-                       
-                    <!-- //////////////////////////////////////////////////////////////////////////// -->
-
+                            </li>
                     </div>
+                    <br><br><br>
+                </div>
                 <!--end container-->
             </section>
             <!-- END CONTENT -->

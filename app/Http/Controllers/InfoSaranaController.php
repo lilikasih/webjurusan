@@ -11,7 +11,7 @@ class InfoSaranaController extends Controller
     public function show($id)
     {
         return view('sarana',[
-            'sarana'=>sarana::find($id)
+            'sarana'=>Sarana::find($id)
         ]);
     }
 }

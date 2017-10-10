@@ -48,13 +48,15 @@ Route::get('/dosen', 'DosenController@show');
 
 Route::get('/beasiswa', 'BeasiswaController@show');
 
-Route::get('/beranda', 'BeritaController@show', 'SaranaController@show');
-
 Route::get('infobeasiswa/{id}', [
     'uses'=> 'InfoBeasiswaController@show']);
 
+Route::get('/beranda', 'BeritaController@show')->name('beranda');
+
 Route::get('berita/{id}', [
     'uses'=> 'InfoBeritaController@show']);
+
+Route::get('/layouts.navbar', 'SaranaController@show');
 
 Route::get('sarana/{id}', [
     'uses'=> 'InfoSaranaController@show']);
@@ -65,30 +67,6 @@ Route::get('/kontak', function () {
 
 Route::get('/lokasi', function () {
     return view('lokasi');
-});
-
-Route::get('/ruangkuliah', function () {
-    return view('ruangkuliah');
-});
-
-Route::get('/lab_rpl', function () {
-    return view('lab_rpl');
-});
-
-Route::get('/lab_jarkom', function () {
-    return view('lab_jarkom');
-});
-
-Route::get('/lab_mmk', function () {
-    return view('lab_mmk');
-});
-
-Route::get('/lab_si', function () {
-    return view('lab_si');
-});
-
-Route::get('/ruangbaca', function () {
-    return view('ruangbaca');
 });
 
 Route::get('/struktur_organisasi', function () {

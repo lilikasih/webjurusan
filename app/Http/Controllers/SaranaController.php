@@ -9,7 +9,7 @@ class SaranaController extends Controller
 {
     public function show()
     {
-        return view('beranda', [
+        return view('layouts.navbar', [
             'ketsarana' => sarana::all()
         ]);
     }

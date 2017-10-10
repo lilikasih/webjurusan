@@ -79,40 +79,24 @@ Informasi lebih detail dapat menghubungi email: YSEALIjkt@state.gov atau mengunj
 
         Beasiswa::create([
             'id' => '3',
-            'nama' => 'Program Indonesia Next: Beasiswa Sertifikasi Internasional untuk Mahasiswa/i Indonesia',
+            'nama' => 'Beasiswa Toyota Astra untuk Mahasiswa On-going',
             'tgl' => '10/06/2017',
-            'isi' => 'Bagi kamu mahasiswa Indonesia, ada program menarik yang ditawarkan oleh Telkomsel yang bisa kamu ikuti. Program Indonesia Next, merupakan program dari Telkomsel bagi mahasiswa/i Indonesia dalam bentuk seminar, diskusi panel dan sharing session, serta kesempatan untuk mendapatkan sertifikasi internasional. Beasiswa sertifikasi yang akan diberikan adalah keahlian Microsoft Office Specialist dan Adobe Certified Associate.<br><br>
-Melalui program ini, peserta akan mendapatkan wawasan mengenai pentingnya memiliki sertifikat keahlian yang dapat membantu dalam menghadapi kompetisi di dunia saat ini. Peserta akan mendapatkan kesempatan untuk mengikuti ujian sertifikasi Nasional dan Internasional secara cuma–cuma. Untuk yang berhasil lulus ujian sertifikasi, peserta akan mendapatkan sertifikat keahlian skala internasional yang bisa digunakan sebagai Surat Keterangan Pendamping Ijazah (SKPI).<br><br>
-
-<b><font color="blue">Siapa saja yang dapat mengikuti program ini?</font></b><br>
-Pendaftaran terbuka untuk semua mahasiswa aktif terutama bagi mahasiswa semester akhir.<br><br>
-
-<b><font color="blue">Kapan Indonesia Next dilaksanakan?</font></b><br>
-Indonesia Next akan dilaksanakan pada bulan Oktober s/d Desember pada 6 kota, yaitu: Medan, Yogyakarta, Jakarta, Surabaya, Makassar, dan Bandung.<br><br>
-
-Berikut beberapa nama yang akan menjadi pembicara dalam seminar Indonesia Next:<br>
-1. Irwan Dewanto (Head of HR Supply Chain Unilever)<br>
-2. Harry Nugraha (Country Manager Intel Indonesia)<br>
-3. Zeddy Iskandar (Senior IT Specialist Mubadala Petroleum Abu Dhabi)<br>
-4. Handry Satriago (CEO GE Indonesia)<br>
-5. dan sebagainya.<br><br>
-
-<b><font color="blue">Persyaratan dan Ketentuan:</font></b><br><br>
-1. Pendaftaran terbuka untuk semua mahasiswa aktif (D1, D2, D3, D4, S1, dan S2) terutama untuk mahasiswa semester akhir.<br>
-2. Registrasi melalui website <font color="red">indonesianext.id.</font> atau aplikasi mobile Indonesia Next (Google Play).<br>
-3. Peserta harus mendaftarkan alamat email dan nomor telepon (Halo, simPATI, Loop, As) yang valid dan bisa dihubungi. Peserta lulus penilaian dengan nilai kelulusan minimal.<br>
-4. Peserta Login and melakukan Assessment Test, hanya peserta terpilih (berdasarkan Score dan Waktu terbaik) yang akan diundang ke Seminar dan mengikuti kegiatan Indonesia Next.<br>
-5. Peserta bersedia mengikuti seluruh rangkaian kegiatan mulai dari Seminar, Training, Exam, Bootcamp, QPanel sesuai jadwal yang ditetapkan panitia.<br>
-6. Semua informasi mengenai kegiatan akan diinformasikan melalui email dan sms, jadi selalu cek email secara berkala. Jika panitia membutuhkan data dari peserta dan peserta tidak bisa dihubungi selama 4 jam pada hari tersebut, peserta dianggap mengundurkan diri dari kegiatan.<br>
-7. Semua materi yang dikirimkan oleh peserta menjadi milik Indonesia Next.<br>
-8. Keputusan panitia mutlak dan tidak dapat diganggu gugat.<br><br>
-
-Informasi lebih detail silakan mengunjungi website resminya: <font color="red">indonesianext.id.</font> Selamat mencoba dan semoga bermanfaat.
-',
-            'foto' => 'beasiswa3.jpg',
+            'isi' => 'Yayasan Toyota Astra (YTA) didirikan pada tahun 1974 oleh PT Astra International Tbk dan PT Toyota Astra Motor. Yayasan ini melakukan beberapa program dalam bidang pendidikan, diantaranya berupa beasiswa reguler untuk mahasiswa S1, beasiswa tesis / disertasi serta bantuan penelitian dan kegiatan ilmiah. Berikut informasi mengenai Beasiswa Toyota Astra.<br><br>
+Penyelenggaraan beasiswa ini merupakan bentuk kepedulian nyata YTA terhadap dunia pendidikan nasional. Untuk tahun ini ditetapkan kuota sebesar 550 orang mahasiswa S1 dari 34 Perguruan Tinggi terpilih di seluruh Indonesia yang akan mendapatkan Beasiswa Toyota Astra sebesar Rp 250.000,- per bulan. Tujuan pemberian beasiswa ini dimaksudkan untuk membantu mahasiswa berprestasi agar dapat menyelesaikan studinya tepat waktu.<br><br>
+<b><font color="blue">Persyaratan:</font></b><br><br>
+1. Merupakan mahasiswa/i berkebangsaan Indonesia.<br><br>
+2. Menekuni bidang studi Teknik (Jurusan Mesin, Elektro, Sipil, Arsitek, Kimia, Industri, Lingkungan dan Teknologi Informatika), MIPA, Pertanian, Perikanan dan Kehutanan.<br><br>
+3. Tahun ajaran 2017/2018 berada di semester V atau VII.<br><br>
+4. Memiliki IPK minimal 3,00.<br><br>
+5. Belum bekerja tetap dan tidak sedang mendapatkan Beasiswa/Ikatan Dinas dari Lembaga atau Instansi lain.<br><br>
+6. Permohonan diajukan secara kolektif melalui Pembantu Rektor Bidang Kemahasiswaan masing-masing perguruan tinggi paling lambat tanggal 30 September 2017 (cap pos).<br><br>
+7. Apabila sampai batas waktu diatas, formulir permohonan belum diterima YTA, maka dengan sendirinya dinyatakan gugur.<br><br>
+Keputusan nama-nama penerima beasiswa akan diumumkan Yayasan Toyota dan Astra melalui Pembantu Rektor Bidang Kemahasiswaan. Para penerima beasiswa yang terpilih wajib untuk melaporkan Indeks Prestasi setiap semester secara kolektif melalui Pembantu Rektor Bidang Kemahasiswaan sebagai bahan evaluasi Yayasan Toyota dan Astra.
+       ',
+            'foto' => 'beasiswa6.jpg',
         ]);
 
-        Beasiswa::create([
+       Beasiswa::create([
             'id' => '4',
             'nama' => 'Beasiswa untuk Mahasiswa S1 dari Bazma Pertamina 2017',
             'tgl' => '10/06/2017',
@@ -158,5 +142,65 @@ Batas waktu pendaftaran sampai dengan <font color="red">7 Oktober 2017.</font> I
             ',
             'foto' => 'beasiswa4.jpg',
         ]);
+
+        Beasiswa::create([
+            'id' => '5',
+            'nama' => 'Beasiswa S1 Kanada di University of Toronto Fully Funded Tahun 2018 – 2019',
+            'tgl' => '09/10/2017',
+            'isi' => 'Kanada merupakan salah satu negara maju di dunia dan kerap kali menjadi pilihan untuk melanjutkan kuliah di luar negeri oleh pelajar Indonesia. Salah satu universitas ternama di Kanada saat ini sedang menawarkan beasiswa untuk melanjutkan kuliah S1. University of Toronto yang meraih peringkat 31 di dunia (versi QS World University Rankings) menawarkan Lester B. Pearson International Scholarship Program bagi pelajar internasional, termasuk Indonesia. Program beasiswa S1 Kanada ini termasuk paling bergengsi dan kompetitif, setiap tahunnya ada sekitar 37 siswa yang akan mendapatkan beasiswa ini.<br><br>
+Adapun cakupan pembiayaan yang ditawarkan meliputi: uang perkuliahan (tuition fee), buku, biaya insidental, serta bantuan tempat tinggal selama empat tahun. Beasiswa ini juga terbuka untuk berbagai jurusan, seperti: Akuntansi, Arsitektur, Bioengineering, Kimia, Teknik Sipil, dan berbagai jurusan lainnya.<br><br>
+<b><font color="blue">Persyaratan:</font></b><br><br>
+1. Merupakan pelajar internasional yang dinominasikan oleh sekolah asal. Pihak sekolah asal (SMA/SMK/sederajat) dapat mengisi Form Nominasi serta Data Sekolah pada link berikut: <font color="red">Nomination Form.</font><br>
+2. Pemikir orisinal dan kreatif.<br>
+3. Berkomitmen pada sekolah dan komunitas.<br>
+4. Berprestasi dalam bidang akademik dan kreatif.<br>
+5. Memiliki antusias tinggi dalam belajar dan eksplorasi intelektual.<br>
+6. Menunjukkan kemampuan kepemimpinan yang kuat.<br>
+7. Saat ini sedang menjalani tingkat terakhir (kelas 3 atau 12) Sekolah Menengah atau telah lulus tidak lebih awal dari Juni 2017.<br>
+8. Mampu memulai perkuliahan pada tahun ajaran berikutnya (siswa yang telah mengikuti studi di universitas tidak dapat mengikuti beasiswa ini).<br><br>
+  
+<b><font color="blue">Tata Cara Pendaftaran:</font></b><br><br>            
+Untuk mendaftar beasiswa S1 Kanada, anda harus mendapatkan nominasi dari sekolah asal (gunakan form di atas). Selanjutnya daftarkan diri anda sebagai mahasiswa di University of Toronto untuk tahun ajaran 2018.<br>
+Pastikan anda telah memenuhi persyaratan masuk sebagai mahasiswa di University of Toronto (International Applicants). Pendaftaran untuk tahun 2018-2019 akan dibuka pada akhir September 2017.<br>
+Setelah pihak panelis mendapatkan nominasi dan pendaftaran, anda dapat melengkapi Aplikasi Pendaftaran Online Lester B. Pearson Scholarship. Batas waktu pendaftaran beasiswa sampai dengan 15 Januari 2018. Batas waktu nominasi dari sekolah sampai dengan 30 November 2017.<br>
+            ',
+            'foto' => 'beasiswa5.jpg',
+        ]);
+
+        Beasiswa::create([
+            'id' => '6',
+            'nama' => 'Program Indonesia Next: Beasiswa Sertifikasi Internasional untuk Mahasiswa/i Indonesia',
+            'tgl' => '10/06/2017',
+            'isi' => 'Bagi kamu mahasiswa Indonesia, ada program menarik yang ditawarkan oleh Telkomsel yang bisa kamu ikuti. Program Indonesia Next, merupakan program dari Telkomsel bagi mahasiswa/i Indonesia dalam bentuk seminar, diskusi panel dan sharing session, serta kesempatan untuk mendapatkan sertifikasi internasional. Beasiswa sertifikasi yang akan diberikan adalah keahlian Microsoft Office Specialist dan Adobe Certified Associate.<br><br>
+Melalui program ini, peserta akan mendapatkan wawasan mengenai pentingnya memiliki sertifikat keahlian yang dapat membantu dalam menghadapi kompetisi di dunia saat ini. Peserta akan mendapatkan kesempatan untuk mengikuti ujian sertifikasi Nasional dan Internasional secara cuma–cuma. Untuk yang berhasil lulus ujian sertifikasi, peserta akan mendapatkan sertifikat keahlian skala internasional yang bisa digunakan sebagai Surat Keterangan Pendamping Ijazah (SKPI).<br><br>
+
+<b><font color="blue">Siapa saja yang dapat mengikuti program ini?</font></b><br>
+Pendaftaran terbuka untuk semua mahasiswa aktif terutama bagi mahasiswa semester akhir.<br><br>
+
+<b><font color="blue">Kapan Indonesia Next dilaksanakan?</font></b><br>
+Indonesia Next akan dilaksanakan pada bulan Oktober s/d Desember pada 6 kota, yaitu: Medan, Yogyakarta, Jakarta, Surabaya, Makassar, dan Bandung.<br><br>
+
+Berikut beberapa nama yang akan menjadi pembicara dalam seminar Indonesia Next:<br>
+1. Irwan Dewanto (Head of HR Supply Chain Unilever)<br>
+2. Harry Nugraha (Country Manager Intel Indonesia)<br>
+3. Zeddy Iskandar (Senior IT Specialist Mubadala Petroleum Abu Dhabi)<br>
+4. Handry Satriago (CEO GE Indonesia)<br>
+5. dan sebagainya.<br><br>
+
+<b><font color="blue">Persyaratan dan Ketentuan:</font></b><br><br>
+1. Pendaftaran terbuka untuk semua mahasiswa aktif (D1, D2, D3, D4, S1, dan S2) terutama untuk mahasiswa semester akhir.<br>
+2. Registrasi melalui website <font color="red">indonesianext.id.</font> atau aplikasi mobile Indonesia Next (Google Play).<br>
+3. Peserta harus mendaftarkan alamat email dan nomor telepon (Halo, simPATI, Loop, As) yang valid dan bisa dihubungi. Peserta lulus penilaian dengan nilai kelulusan minimal.<br>
+4. Peserta Login and melakukan Assessment Test, hanya peserta terpilih (berdasarkan Score dan Waktu terbaik) yang akan diundang ke Seminar dan mengikuti kegiatan Indonesia Next.<br>
+5. Peserta bersedia mengikuti seluruh rangkaian kegiatan mulai dari Seminar, Training, Exam, Bootcamp, QPanel sesuai jadwal yang ditetapkan panitia.<br>
+6. Semua informasi mengenai kegiatan akan diinformasikan melalui email dan sms, jadi selalu cek email secara berkala. Jika panitia membutuhkan data dari peserta dan peserta tidak bisa dihubungi selama 4 jam pada hari tersebut, peserta dianggap mengundurkan diri dari kegiatan.<br>
+7. Semua materi yang dikirimkan oleh peserta menjadi milik Indonesia Next.<br>
+8. Keputusan panitia mutlak dan tidak dapat diganggu gugat.<br><br>
+
+Informasi lebih detail silakan mengunjungi website resminya: <font color="red">indonesianext.id.</font> Selamat mencoba dan semoga bermanfaat.
+',
+            'foto' => 'beasiswa3.jpg',
+        ]);
+
     }
 }

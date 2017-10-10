@@ -38,7 +38,7 @@
                     <div class="row">
                         @foreach ($listdosen as $dosen)
 
-                            <div class="col s12 m6 grid">
+                            <div class="col s12 m4 grid">
                                 <figure class="effect-lily">
                                     <center><img src="images/{{$dosen->foto}}" width="200px" height="210px" alt=""/></center>
                                     <figcaption>

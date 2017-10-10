@@ -21,7 +21,7 @@
                                                     <h4 class="breadcrumbs-title">Sejarah</h4>
                                                     <ol class="breadcrumbs">
                                                         <li><a href="beranda">Beranda</a></li>
-                                                        <li class="=active">Sejarah</a></li>
+                                                        <li class="=active">Sejarah</li>
                                                     </ol>
                                                 </div>
                                             </div>
@@ -46,6 +46,7 @@
                                 dengan SK Direktur Jenderal Pendidikan Tinggi Departemen Pendidikan dan Kebudayaan Nomor: 2955/D/T/2008 pada tanggal 4 September 2008. Kemudian dilanjutkan dengan SK dari Rektor Unesa dengan Nomor: 2238/UN38.I/PP/2012 perihal Perpanjangan Prodi dan Pengajuan Akreditasi kepada BAN-PT pada tanggal 19 April 2012.
                             <br><br>Jurusan Teknik Elektro berusaha untuk mengajukan program studi baru bernama S1 Pendidikan Teknologi Informatika (S1 PTI) untuk mendukung pencapaian jumlah guru TIK yang mengajar di SMK sesui dengan Renstra Depdiknas 2005-2009, menuju pembangunan pendidikan nasional jangka panjang 2025 disebutkan bahwa target rasio jumlah SMA dan SMK tahun 2009 sebesar 60:40; tahun 2015 sebesar 50:50; tahun 2020 sebesar 40:60, dan tahun 2025 sebesar 30:70 (Depdiknas,2005). Ijin penyelenggaraan prodi berdasar SK pendirian 201/E/O/2012 tanggal  5 Juni 2012.</p>
 
+                    </div>
                     </div>
                 <!--end container-->
             </section>

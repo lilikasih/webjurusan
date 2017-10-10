@@ -37,9 +37,7 @@
                     <div id="blog-posts" class="row">
                     @foreach($listbeasiswa as $Beasiswa)
 
-                        <div class="col s12 m6 l1">
                         <div class="blog-sizer"></div>
-
                         <div class="blog">
                             <div class="card">
                                 <div class="card-image waves-effect waves-block waves-light">
@@ -50,11 +48,10 @@
                                     <p class="row">
                                         <span class="right">{{$Beasiswa->tgl}}</span><br><br>
                                     </p>
-                                    <p class="blog-post-content" style="max-height:100px; text-align: justify">{!!$Beasiswa->isi!!}</p>
+                                    <p class="blog-post-content" style="max-height:100px; text-align: justify; padding-bottom: 5px">{!!$Beasiswa->isi!!}</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
                         @endforeach
                     </div>
                 </div>
