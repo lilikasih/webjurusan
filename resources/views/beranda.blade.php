@@ -88,7 +88,7 @@
                                 <div class="blog-card" >
                                 <div class="card">
                                     <div class="card-image waves-effect waves-block waves-light">
-                                        <a href="{{url('berita',[$berita->id])}}"><img src="images/{{$berita->foto}}" alt="blog-img" width="100px" height="190px"></a>
+                                        <a href="{{url('berita',[$berita->id])}}"><img src="images/{{$berita->foto}}" alt="blog-img" width="180px" height="200px"></a>
                                     </div>
                                     <div class="card-content">
                                         <p class="row">

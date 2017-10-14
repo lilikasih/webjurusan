@@ -35,9 +35,11 @@
     <link href="{{ asset ('css/custom/custom.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
 
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="{{ asset ('js/plugins/prism/prism.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{{ asset ('js/plugins/perfect-scrollbar/perfect-scrollbar.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{{ asset ('js/plugins/jvectormap/jquery-jvectormap.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{{ asset ('ajs/plugins/chartist-js/chartist.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset ('js/plugins/magnific-popup/magnific-popup.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
 
 </head>
 
@@ -195,7 +197,7 @@
             verticalFit: true,
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
             titleSrc: function(item) {
-                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+                return item.el.attr('title') + '<small>by Teknik Informatika</small>';
             },
             zoom: {
                 enabled: true,

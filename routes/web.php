@@ -73,9 +73,8 @@ Route::get('/struktur_organisasi', function () {
     return view('struktur_organisasi');
 });
 
-Route::get('/galeri', function () {
-    return view('galeri');
-});
+Route::get('/galeri', 'GaleriController@show');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
