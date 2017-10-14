@@ -62,10 +62,7 @@
                 <ul class="left">
                     <li><h1 class="logo-wrapper"><a href="{{route('beranda')}}" class="brand-logo darken-1"><img src="{{asset ('images/teknikinformatika.png')}}" alt="" style="width: 33px"><span> Teknik Informatika</span></a> </h1></li>
                 </ul>
-                {{--<div class="header-search-wrapper hide-on-med-and-down">
-                    <i class="mdi-action-search"></i>
-                    <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search..."/>
-                </div>--}}
+
                 <ul class="right hide-on-med-and-down">
                     <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen"><i class="mdi-action-settings-overscan"></i></a>
                     </li>
@@ -86,11 +83,7 @@
 
             <!--breadcrumbs start-->
             <div id="breadcrumbs-wrapper">
-                <!-- Search for small screen -->
-                <div class="header-search-wrapper grey hide-on-large-only">
-                    <i class="mdi-action-search active"></i>
-                    <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search...">
-                </div>
+
                 <div class="container">
                     <div class="row">
                         <div class="col s12 m12 l12">

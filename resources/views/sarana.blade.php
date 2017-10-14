@@ -69,11 +69,7 @@
 
             <!--breadcrumbs start-->
             <div id="breadcrumbs-wrapper">
-                <!-- Search for small screen -->
-                <div class="header-search-wrapper grey hide-on-large-only">
-                    <i class="mdi-action-search active"></i>
-                    <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search...">
-                </div>
+
                 <div class="container">
                     <div class="row">
                         <div class="col s12 m12 l12">
@@ -87,33 +83,15 @@
             <!--breadcrumbs end-->
 
             <!--start container-->
-            {{--<div class="container">
-                <h1>{{$sarana->nama}}</h1>
-                <div id="invoice">
-                    <div class="invoice-header">
-                        <div class="row section">
-                            <div class="col s12 m6 l6">
-                                <img src="{{asset('images/'.$sarana->foto)}}" style="object-fit:cover" width="100%" height="auto"><br><br><br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>--}}
 
             <div class="container">
                 <center><h1>{{$sarana->nama}}</h1></center>
                 <div id="chart-dashboard">
                     <center><img src="{{asset('images/'.$sarana->foto)}}" style="object-fit:cover"  width="80%" height="auto"></center>
-                    <p style="text-align: justify; padding-left: 8%; padding-right: 8%">{!!$sarana->keterangan!!}</p>
+                    <p style="text-align: justify; padding-left: 10%; padding-right: 10%">{!!$sarana->keterangan!!}</p>
                 </div>
             </div>
-                <!--start container-->
-                <div class="container">
-                    <div class="section">
-                        <br><br><br><br><br><br>
-                    </div>
-                </div>
-                <!--end container-->
+
         </section>
         <!-- END CONTENT -->
 

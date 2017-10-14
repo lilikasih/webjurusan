@@ -59,6 +59,18 @@
                 <ul class="left">
                     <li><h1 class="logo-wrapper"><a href="beranda" class="brand-logo darken-1"><img src="{{asset ('images/teknikinformatika.png')}}" alt="" style="width: 33px"><span> Teknik Informatika</span></a> </h1></li>
                 </ul>
+                {{--<ul class="right hide-on-med-and-down">
+                    <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button"  data-activates="translation-dropdown"><img src="images/flag-icons/United-States.png" alt="USA" /></a>
+                    </li>
+                    <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen"><i class="mdi-action-settings-overscan"></i></a>
+                    </li>
+                    <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown"><i class="mdi-social-notifications"><small class="notification-badge">5</small></i>
+
+                        </a>
+                    </li>
+                    <li><a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse"><i class="mdi-communication-chat"></i></a>
+                    </li>
+                </ul>--}}
                 <ul class="right hide-on-med-and-down">
                     <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen"><i class="mdi-action-settings-overscan"></i></a>
                     </li>
@@ -73,6 +85,7 @@
 <!-- START LEFT SIDEBAR NAV-->
 <aside id="left-sidebar-nav">
     <ul id="slide-out" class="side-nav fixed leftside-navigation">
+
         <li class="bold active"><a href="beranda" class="waves-effect waves-cyan"><i class="mdi-action-dashboard"></i>MENU</a></li>
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
@@ -128,6 +141,8 @@
         </li>
         <li class="li-hover"><div class="divider"></div></li>
     </ul>
+    <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+
 </aside>
 <!-- END LEFT SIDEBAR NAV-->
 

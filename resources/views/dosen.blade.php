@@ -10,11 +10,7 @@
 
             <!--breadcrumbs start-->
             <div id="breadcrumbs-wrapper">
-                <!-- Search for small screen -->
-                <div class="header-search-wrapper grey hide-on-large-only">
-                    <i class="mdi-action-search active"></i>
-                    <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Search...">
-                </div>
+
                 <div class="container">
                     <div class="row">
                         <div class="col s12 m12 l12">
@@ -40,7 +36,7 @@
 
                             <div class="col s12 m4 grid">
                                 <figure class="effect-lily">
-                                    <center><img src="images/{{$dosen->foto}}" width="200px" height="210px" alt=""/></center>
+                                    <center><img src="images/Dosen/{{$dosen->foto}}" width="200px" height="210px" alt=""/></center>
                                     <figcaption>
                                         <div style="text-align: center">
                                             <br><label>Nama :</label>
