@@ -53,5 +53,19 @@ class GaleriSeeder extends Seeder
             'tanggal' => '27/11/2016',
             'foto' => 'Panitia-IC.jpg',
         ]);
+
+        galeri::create([
+            'id' => '0000000007',
+            'nama' => 'Foto Bersama Teknik Informatika UPN dan UNESA ',
+            'tanggal' => '29/10/2016',
+            'foto' => 'UPN.JPG',
+        ]);
+
+        galeri::create([
+        'id' => '0000000008',
+        'nama' => 'Wisudawan dan Wisudawati Jurusan Teknik Informatika',
+        'tanggal' => '27/07/2017',
+        'foto' => 'wisuda.jpg',
+    ]);
     }
 }

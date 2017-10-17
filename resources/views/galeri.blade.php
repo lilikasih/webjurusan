@@ -30,6 +30,7 @@
                     <div class="section">
 
                         <p class="caption">Galeri Kegiatan Jurusan Teknik Informatika Universitas Negeri Surabaya</p>
+
                         <div class="divider"></div>
 
                        {{-- <div class="row">
@@ -56,7 +57,7 @@
 
                                 <div class="gallary-item" >
                                 @foreach ($listgaleri as $galeri)
-                                <a href="images/Galeri/{{$galeri->foto}}" title="{{$galeri->nama}}"><img src="images/Galeri/{{$galeri->foto}}" width="220px" height="160px"></a>
+                                <a href="images/Galeri/{{$galeri->foto}}" title="{{$galeri->nama}} ({{$galeri->tanggal}})"><img src="images/Galeri/{{$galeri->foto}}" width="220px" height="160px"></a>
                                 @endforeach
                                 </div>
 
